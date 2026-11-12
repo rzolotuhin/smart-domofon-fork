@@ -1,5 +1,5 @@
 # Smart intercom based on ESP8266 ([ESPHome](https://esphome.io/) version)
-**English** | [Русский](https://github.com/Anonym-tsk/smart-domofon/blob/master/esphome/README.md)
+**English** | [Русский](https://github.com/rzolotuhin/smart-domofon-fork/blob/master/esphome/README.md)
 
 ---
 
@@ -9,7 +9,7 @@ Enjoy my work? [Help me out](https://yoomoney.ru/to/410019180291197) for a coupl
 
 ---
 
-[Scheme and parts](https://github.com/Anonym-tsk/smart-domofon/blob/master/native/README_EN.md#example-parts)
+[Scheme and parts](https://github.com/rzolotuhin/smart-domofon-fork/blob/master/native/README_EN.md#example-parts)
 
 [Telegram chat](https://t.me/esphome)
 
@@ -32,9 +32,9 @@ Enjoy my work? [Help me out](https://yoomoney.ru/to/410019180291197) for a coupl
     * Incoming call - reject call
 
 ## Configuration and build
-1. Fill in WiFi credentials in [domofon.yaml](https://github.com/Anonym-tsk/smart-domofon/blob/master/esphome/domofon.yaml#L20)
+1. Fill in WiFi credentials in [domofon.yaml](https://github.com/rzolotuhin/smart-domofon-fork/blob/master/esphome/domofon.yaml#L20)
 2. Use [ESPHome](https://esphome.io) to build and upload firmware
 
 ## Home Assistant Telegram notifications
 
-Put [this file](https://github.com/Anonym-tsk/smart-domofon/blob/master/esphome/homeassistant/domofon.yaml) into `/config/packages/domofon.yaml` and correct notification service in automations.
+Put [this file](https://github.com/rzolotuhin/smart-domofon-fork/blob/master/esphome/homeassistant/domofon.yaml) into `/config/packages/domofon.yaml` and correct notification service in automations.

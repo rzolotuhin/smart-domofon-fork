@@ -1,5 +1,5 @@
 # Умный домофон на ESP8266 (версия на [ESPHome](https://esphome.io/))
-[English](https://github.com/Anonym-tsk/smart-domofon/blob/master/esphome/README_EN.md) | **Русский**
+[English](https://github.com/rzolotuhin/smart-domofon-fork/blob/master/esphome/README_EN.md) | **Русский**
 
 ---
 
@@ -9,7 +9,7 @@
 
 ---
 
-[Схема и компоненты](https://github.com/Anonym-tsk/smart-domofon/blob/master/native/README.md#пример-компонентов)
+[Схема и компоненты](https://github.com/rzolotuhin/smart-domofon-fork/blob/master/native/README.md#пример-компонентов)
 
 [Чат в Telegram](https://t.me/esphome)
 
@@ -32,9 +32,9 @@
     * Входящий звонок - отклонит вызов
 
 ## Конфигурация и прошивка
-1. Заполните настройки WiFi в файле [domofon.yaml](https://github.com/Anonym-tsk/smart-domofon/blob/master/esphome/domofon.yaml#L20)
+1. Заполните настройки WiFi в файле [domofon.yaml](https://github.com/rzolotuhin/smart-domofon-fork/blob/master/esphome/domofon.yaml#L20)
 2. Используйте [ESPHome](https://esphome.io) для компиляции и загрузки прошивки
 
 ## Уведомления в Telegram через Home Assistant
 
-Положите [этот файл](https://github.com/Anonym-tsk/smart-domofon/blob/master/esphome/homeassistant/domofon.yaml) в `/config/packages/domofon.yaml` и исправьте используемые сервисы в автоматизации.
+Положите [этот файл](https://github.com/rzolotuhin/smart-domofon-fork/blob/master/esphome/homeassistant/domofon.yaml) в `/config/packages/domofon.yaml` и исправьте используемые сервисы в автоматизации.

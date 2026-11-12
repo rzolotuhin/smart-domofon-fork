@@ -1,5 +1,5 @@
 # Smart Intercom project
-# https://github.com/Anonym-tsk/smart-domofon/tree/master/ge1mer
+# https://github.com/rzolotuhin/smart-domofon-fork/tree/master/ge1mer
 
 ############# User configuration #############
 
@@ -36,8 +36,8 @@ substitutions:
 ########### End user configuration ###########
 
 packages:
-  base: github://Anonym-tsk/smart-domofon/ge1mer/esphome/packages/base.yaml@master
-  api: github://Anonym-tsk/smart-domofon/ge1mer/esphome/packages/api.yaml@master
-  #mqtt: github://Anonym-tsk/smart-domofon/ge1mer/esphome/packages/mqtt.yaml@master
-  #web_server: github://Anonym-tsk/smart-domofon/ge1mer/esphome/packages/web_server.yaml@master
-  captive_portal: github://Anonym-tsk/smart-domofon/ge1mer/esphome/packages/captive_portal.yaml@master
+  base: github://rzolotuhin/smart-domofon-fork/ge1mer/esphome/packages/base.yaml@master
+  api: github://rzolotuhin/smart-domofon-fork/ge1mer/esphome/packages/api.yaml@master
+  #mqtt: github://rzolotuhin/smart-domofon-fork/ge1mer/esphome/packages/mqtt.yaml@master
+  #web_server: github://rzolotuhin/smart-domofon-fork/ge1mer/esphome/packages/web_server.yaml@master
+  captive_portal: github://rzolotuhin/smart-domofon-fork/ge1mer/esphome/packages/captive_portal.yaml@master

@@ -1,5 +1,5 @@
 # Smart intercom based ([ESPHome](https://esphome.io/) version by [Ge1mer](https://github.com/Ge1mer))
-**English** | [Русский](https://github.com/Anonym-tsk/smart-domofon/blob/master/ge1mer/README.md)
+**English** | [Русский](https://github.com/rzolotuhin/smart-domofon-fork/blob/master/ge1mer/README.md)
 
 ---
 
@@ -13,7 +13,7 @@ Enjoy my work? [Help me out](https://yoomoney.ru/to/410019180291197) for a coupl
 
 [Telegram chat](https://t.me/domofon_esp)
 
-![Board](https://raw.githubusercontent.com/Anonym-tsk/smart-domofon/master/ge1mer/board.jpeg)
+![Board](https://raw.githubusercontent.com/rzolotuhin/smart-domofon-fork/master/ge1mer/board.jpeg)
 
 ![Connection](../ge1mer/assets/connection.jpeg)
 
@@ -52,9 +52,9 @@ Enjoy my work? [Help me out](https://yoomoney.ru/to/410019180291197) for a coupl
 * 8 clicks - factory reset
 
 ## Configuration and build
-1. Fill in WiFi credentials in [domofon.yaml](https://github.com/Anonym-tsk/smart-domofon/blob/master/ge1mer/domofon.yaml#L25)
+1. Fill in WiFi credentials in [domofon.yaml](https://github.com/rzolotuhin/smart-domofon-fork/blob/master/ge1mer/domofon.yaml#L25)
 2. Use [ESPHome](https://esphome.io) to build and upload firmware
 
 ## Home Assistant Telegram notifications
 
-Put [this file](https://github.com/Anonym-tsk/smart-domofon/blob/master/ge1mer/homeassistant/domofon.yaml) into `/config/packages/domofon.yaml` and correct notification service in automations.
+Put [this file](https://github.com/rzolotuhin/smart-domofon-fork/blob/master/ge1mer/homeassistant/domofon.yaml) into `/config/packages/domofon.yaml` and correct notification service in automations.
